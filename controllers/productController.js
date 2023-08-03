@@ -36,7 +36,6 @@ exports.createProduct = async (req, res, next) => {
       req.body["image_url"]
     );
     await product.save();
-    console.log(result);
     res.status(201).json({ message: "Data is Added" });
   } catch (error) {
     console.log(error);
