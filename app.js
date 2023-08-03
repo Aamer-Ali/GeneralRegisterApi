@@ -25,3 +25,8 @@ const PORT = process.env.PORT;
 // });
 
 app.listen(PORT);
+
+// "name": "practiceapi",
+// "version": "1.0.0",
+// "description": "Api test",
+// "main": "index.js",
